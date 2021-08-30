@@ -1,4 +1,5 @@
-apiVersion: 
+---
+apiVersion: v1
 kind: PipelineRun
 metadata:
   generateName: andreas-kavountzis-pipeline-from-scratch-pipeline-run-
@@ -9,4 +10,3 @@ spec:
     - name: pipeline-shared-data
       persistentVolumeClaim:
         claimName: andreas-kavountzis-pvc
-
