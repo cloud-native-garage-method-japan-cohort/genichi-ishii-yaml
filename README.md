@@ -1,1 +1,0 @@
-# genichi-ishii-yaml
